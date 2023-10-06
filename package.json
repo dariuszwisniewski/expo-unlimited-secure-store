@@ -1,38 +1,38 @@
 {
-    "name": "@neverdull-agency/expo-unlimited-secure-store",
-    "version": "1.0.11",
-    "description": "An 'unlimited' secure store engine for expo projects, also compatible with redux-persist. (Expo's SecureStore was limited to 2KB in SDK v33)",
-    "main": "src/index.js",
-    "types": "src/index.d.ts",
-    "peerDependencies": {
-        "expo-file-system": "^9.3.0",
-        "expo-secure-store": "^9.3.0"
-    },
-    "dependencies": {
-        "crypto-js": "^4.0.0"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/neverdull-agency/expo-unlimited-secure-store.git"
-    },
-    "keywords": [
-        "expo",
-        "unlimited",
-        "secure",
-        "store",
-        "redux",
-        "persist",
-        "large",
-        "secured",
-        "storage"
-    ],
-    "author": "Istvan Szilagyi <istvan@neverdull.nl>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/neverdull-agency/expo-unlimited-secure-store/issues"
-    },
-    "homepage": "https://github.com/neverdull-agency/expo-unlimited-secure-store#readme"
+  "name": "@wisiendot/expo-unlimited-secure-store",
+  "version": "1.0.12",
+  "description": "An 'unlimited' secure store engine for expo projects, also compatible with redux-persist. (Expo's SecureStore was limited to 2KB in SDK v33)",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "peerDependencies": {
+    "expo-file-system": "^15.0.0",
+    "expo-secure-store": "^12.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neverdull-agency/expo-unlimited-secure-store.git"
+  },
+  "keywords": [
+    "expo",
+    "unlimited",
+    "secure",
+    "store",
+    "redux",
+    "persist",
+    "large",
+    "secured",
+    "storage"
+  ],
+  "author": "Istvan Szilagyi <istvan@neverdull.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neverdull-agency/expo-unlimited-secure-store/issues"
+  },
+  "homepage": "https://github.com/neverdull-agency/expo-unlimited-secure-store#readme"
 }
